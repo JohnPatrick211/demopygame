@@ -12,7 +12,7 @@ pygame.display.set_caption('Fishman Shooter')
 
 #set framerate
 clock = pygame.time.Clock()
-FPS = 60
+FPS = 600
 
 #define game variables
 GRAVITY = 0.75
