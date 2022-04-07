@@ -59,6 +59,7 @@ grenade_fx.set_volume(0.5)
 start_img = pygame.image.load('trueassets/start_btn.png').convert_alpha()
 exit_img = pygame.image.load('trueassets/exit_btn.png').convert_alpha()
 restart_img = pygame.image.load('trueassets/restart_btn.png').convert_alpha()
+ins_img = pygame.image.load('trueassets/instruction2_btn.png').convert_alpha()
 pine1_img = pygame.image.load('trueassets/Background/pine1.png').convert_alpha()
 pine2_img = pygame.image.load('trueassets/Background/pine2.png').convert_alpha()
 building_img = pygame.image.load('trueassets/Background/2.png').convert_alpha()
@@ -789,8 +790,8 @@ death_fade = ScreenFade(2, PINK, 4)
 
 #create buttons
 start_button = button.Button(SCREEN_WIDTH // 2 - 130, SCREEN_HEIGHT // 2 - 70, start_img, 1)
-instruction_button = button.Button(SCREEN_WIDTH // 2 - 130, SCREEN_HEIGHT // 2 - -50, start_img, 1)
-exit_button = button.Button(SCREEN_WIDTH // 2 - 110, SCREEN_HEIGHT // 2 + 170, exit_img, 1)
+instruction_button = button.Button(SCREEN_WIDTH // 2 - 130, SCREEN_HEIGHT // 2 - -50, ins_img, 1)
+exit_button = button.Button(SCREEN_WIDTH // 2 - 110, SCREEN_HEIGHT // 2 + 155, exit_img, 1)
 restart_button = button.Button(SCREEN_WIDTH // 2 - 100, SCREEN_HEIGHT // 2 - 50, restart_img, 2)
 
 
